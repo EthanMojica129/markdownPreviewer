@@ -15,4 +15,4 @@ Build an app that is functionally similar to this: https://markdown-previewer.fr
 
 - User Story #5: User Story #5: When my markdown previewer first loads, the default text in the #editor field should contain valid markdown that represents at least one of each of the following elements: a heading element (H1 size), a sub heading element (H2 size), a link, inline code, a list item, a blockquote, an image, and bolded text.
 
-User Story #6: When my markdown previewer first loads, the default markdown in the #editor field should be rendered as HTML in the #preview element.
+- User Story #6: When my markdown previewer first loads, the default markdown in the #editor field should be rendered as HTML in the #preview element.
