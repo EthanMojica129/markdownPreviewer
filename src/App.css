@@ -1,0 +1,84 @@
+#header{
+  margin-left: 25vw;
+  margin-right: 25vw;
+  text-align: center;
+  }
+
+#editor{
+  margin-left: 25vw;
+  margin-right: 25vw;
+  min-width: 50vw;
+  min-height: 10vh;
+  max-height: 25vh;
+}
+
+#preview{
+  margin-left: 25vw;
+  margin-right: 25vw;
+  font-size: 1rem;
+  border: 0.5rem solid white;
+  padding: 2vw;
+  background-color: #635c51;
+  min-width: 45.5vw;
+}
+
+img{
+  max-width: 25vw;
+  max-height: 5vh;
+}
+
+pre{
+  background-color: white;
+  color: black;
+}
+
+@media only screen and (min-width:320px) and (max-width: 479px) { 
+  #header{
+    margin-left: 10vw;
+    margin-right: 10vw;
+    font-size: 0.8rem;
+  }
+
+  #editor{
+    min-height: 25vh;
+    min-width: 74.5vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+  }
+
+  #preview{
+    margin-left: 10vw;
+    margin-right: 10vw;
+    min-width: 50vw;
+    font-size: 0.8rem;
+  }
+  img{
+    min-width: 25vw;
+    max-width: 50vw;
+  }
+}
+@media only screen and (min-width:480px) and (max-width: 961px) { 
+  #header{
+    margin-left: 15vw;
+    margin-right: 10vw;
+    font-size: 0.8rem;
+  }
+
+  #editor{
+    min-height: 25vh;
+    min-width: 74.5vw;
+    margin-left: 11vw;
+    margin-right: 10vw;
+  }
+
+  #preview{
+    margin-left: 10vw;
+    margin-right: 10vw;
+    min-width: 50vw;
+    font-size: 0.8rem;
+  }
+  img{
+    min-width: 25vw;
+    max-width: 50vw;
+  }
+}
